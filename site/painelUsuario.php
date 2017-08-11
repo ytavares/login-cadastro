@@ -21,7 +21,7 @@ if($_SESSION['logado'] != 1){
 <body>
     <div id="principal">
         <div id="titulo">
-                <label><h1>Bem Vindo!</h1></label>
+                <label><h1>Usuário logado com sucesso!</h1></label>
         </div>
         <div id="logout">
         <a href="?acao=sair"><button type="submit" name="tSair" id="cLogout" alt="Sair">Sair</button></a>
