@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: #dddddd;
+}
+
+#principal{
+    width:360px;
+    height:340px;
+    background-color:white;
+    position:absolute;
+    margin:10px ;
+    border-radius:5px;
+    box-shadow:0px 0px 10px black;
+    overflow:hidden;
+    padding: 100px;
+}
+
+#titulo{
+    color: #41afcf;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:2px 2px 2px black;
+    float: left;
+}
+
+#logout{
+    padding:5px 15px;
+    font-family: sans-serif;
+    text-align: right;
+}
+#cLogout{
+    padding: 10px 30px 10px 30px;
+    margin: 10px auto 5px auto;
+    background-color:#dddddd;
+    color: black;
+}
+#cLogout:hover{
+    background-color:#41afcf ;
+    color: white;
+    transition: background-color 1s;
+}

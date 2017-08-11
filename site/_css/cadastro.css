@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: #dddddd;
+}
+h1{
+    color: #41afcf;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:2px 2px 2px black;
+    text-align: center;
+}
+form{
+    width: 500px;
+    margin: auto;
+}
+input{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+input:hover{
+    background-color: #deeaeb;
+}
+#enviar{
+    text-align: center;
+}
+#cEnviar{
+    color: black;
+    background-color: #dddddd;
+    padding: 10px 30px 10px 30px;
+    margin: 10px auto 10px auto;
+}
+#cEnviar:hover{
+    background-color:#41afcf ;
+    color: white;
+    transition: background-color 1s;
+}
+fieldset#login{
+    background-color: ;
+}

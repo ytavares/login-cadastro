@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+    background-color: #dddddd;
+}
+#principal{
+    background-color: #41afcf;
+    margin: 140px auto 0px;
+    width: 380px;
+    height: 460px;
+    border-radius: 5px;
+}
+#titulo{
+    color: #41afcf;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:2px 2px 2px black;
+    text-align: center;
+}
+#usuario{
+    padding: 20px;
+}
+#login{
+    width:360px;
+    height:440px;
+    background-color:white;
+    position:absolute;
+    margin:10px ;
+    border-radius:5px;
+    box-shadow:0px 0px 10px black;
+    overflow:hidden;
+}
+input:hover{
+    background-color: #deeaeb;
+}
+#cLogin{
+    padding: 20px 50px 20px 50px;
+    margin: 10px auto 5px auto;
+    background-color:#dddddd;
+    color: black;
+}
+#cLogin:hover{
+    background-color:#41afcf ;
+    color: white;
+    transition: background-color 1s;
+}
+#botao{
+    padding:5px 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#cadastro{
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+#cadastro li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    transition: background-color 1s;
+}
+#cadastro li:hover{
+    color: #dddddd;
+    background-color: #41afcf;
+}
+#cadastro a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#cadastro a:hover{
+    color: #dddddd;
+    display: inline-block;
+}
